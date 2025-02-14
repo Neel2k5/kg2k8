@@ -9,11 +9,11 @@ body {
     height: 40vh;
     text-shadow: 2px 2px 0px black;
     font-size: 4vh;
-    background-color: rgb(0, 168, 168);
+    background-color: rgb(119, 221, 119);
 }
 
 h1 {
-    color: rgb(255, 0, 153);
+    color: rgb(255, 182, 193);
 }
 
 .htext {
@@ -33,49 +33,50 @@ h1 {
     margin-top: 20px;
     align-items: center;
     
+    
 }
 
 button {
-    background-color: rgb(255, 0, 144);  /* Initial background color */
+    background-color:rgb(255, 182, 193);  
+    border: 2vh solid black ;
     color: azure;
     border: none;
     padding: 15px 30px;
     font-size: 1.5rem;
     cursor: pointer;
-    border-radius: 5px;
+    
     font-size: 5vh;
     transition: background-color 0.3s, transform 0.2s;  /* Added transition for smooth effects */
 }
 
-/* "YES" button styles */
+
 
 
 #yes:hover {
-    background-color: #00ff00;  /* Hover state for YES button */
-    transform: scale(1.05);  /* Slightly enlarge on hover */
+    background-color: #00ff00; 
+    transform: scale(1.05);  
 }
 
 #yes:active {
-    background-color: #ff7e7e;  /* Lighter color when clicked */
-    transform: scale(0.95);  /* Slightly shrink when clicked */
+    background-color: #ff7e7e;
+    transform: scale(0.95);
 }
 
-/* "NO" button styles */
+
 
 
 #no:hover {
-    background-color: #660000;  /* Darker red on hover for NO */
-    transform: scale(1.05);  /* Slightly enlarge on hover */
-}
+    background-color: #660000;  
+    transform: scale(1.05);  }
 
 #no:active {
-    background-color: #7f0000;  /* Lighter red on click for NO */
-    transform: scale(0.95);  /* Slightly shrink when clicked */
+    background-color: #7f0000;  
+    transform: scale(0.95); 
 }
 
-/* Image styles */
+
 #img {
-    width: 50%;  /* Adjust image size */
+    width: 50%;  
     height: auto;
     display: block;
     margin: 0 auto;
@@ -83,6 +84,7 @@ button {
 
 
 .navbar{
-    background-color: rgb(255, 0, 144);
+    background-color:rgb(255, 182, 193);
     padding-bottom: 5vh;
+
 }
